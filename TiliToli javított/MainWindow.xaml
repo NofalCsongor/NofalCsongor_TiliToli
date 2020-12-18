@@ -1,29 +1,25 @@
-﻿<Window x:Class="TiliToli.MainWindow"
+<Window x:Class="TiliToli.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
-        Title="TiliToli" Height="500" Width="340"
+        Title="TiliToli" Height="500" Width="500"
         Name ="Jatek">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="107*"/>
-            <ColumnDefinition Width="39*"/>
-            <ColumnDefinition Width="186*"/>
-        </Grid.ColumnDefinitions>
-        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.ColumnSpan="2"/>
-        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="8,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="69,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="2"/>
-        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.ColumnSpan="2"/>
-        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="8,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="69,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="2"/>
-        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.ColumnSpan="2"/>
-        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="8,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="69,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Grid.Column="2"/>
-        <Button Content="Új játék" HorizontalAlignment="Left" Margin="65,394,0,0" VerticalAlignment="Top" Width="150" Height="40" FontSize="23" Click="Button_Click" Grid.ColumnSpan="3"/>
-        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="40" Width="300" FontSize="23" Background="#36867D" Grid.ColumnSpan="3" />
 
+
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="100,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="200,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="300,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="100,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="200,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="300,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="100,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="200,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="300,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="Green"/>
+        <Button Content="Új játék" HorizontalAlignment="Left" Margin="100,395,0,0" VerticalAlignment="Top" Width="140" Height="40" FontSize="25" Click="Button_Click" Background="Brown"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" Height="40" Width="300" FontSize="23" Background="#2E958A"  />
     </Grid>
 </Window>
